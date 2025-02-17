@@ -123,7 +123,7 @@ function App() {
 
 
 <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
-  <a href="https://github.com/Nikhil-Parajuli/Web3-Alert-Hub" target="_blank" rel="noopener noreferrer">
+  <a href="https://my-finance-tracker-neon.vercel.app/" target="_blank" rel="noopener noreferrer">
     <h3 className="text-xl font-semibold mb-2 flex items-center">
       MyFinance Tracker
       <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
