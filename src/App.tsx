@@ -82,35 +82,59 @@ function App() {
         <section className="py-16 px-4 md:px-20 lg:px-32 border-t border-gray-800">
           <h2 className="text-3xl font-bold mb-6 tracking-tight">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
+          <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
+  <a href="https://github.com/Nikhil-Parajuli/Easy-Vision-Comfort-Tools" target="_blank" rel="noopener noreferrer">
+    <h3 className="text-xl font-semibold mb-2 flex items-center">
+      Easy Vision Comfort Tools
+      <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+    </h3>
+  </a>
+  <p className="text-gray-400">Chrome extension for color-blind users with enhanced viewing modes</p>
+</div>
+
             <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
-              <h3 className="text-xl font-semibold mb-2 flex items-center">
-                Easy Vision Comfort Tools
-                <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
-              <p className="text-gray-400">Chrome extension for color-blind users with enhanced viewing modes</p>
-            </div>
-            <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
-              <h3 className="text-xl font-semibold mb-2 flex items-center">
+              {/* <h3 className="text-xl font-semibold mb-2 flex items-center">
                 Unclaimed Airdrop & NFT Finder
                 <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
-              <p className="text-gray-400">Scans wallets for unclaimed airdrops/NFTs</p>
-            </div>
-            <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
+              </h3> */}
               <h3 className="text-xl font-semibold mb-2 flex items-center">
-                Web3 Alert Hub
-                <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
-              <p className="text-gray-400">Real-time notification system for Web3 activities</p>
+  Unclaimed Airdrop & NFT Finder
+  <a 
+    href="https://github.com/Nikhil-Parajuli/Unclaimed-Airdrop-NFT-Finder" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 hover:underline flex items-center"
+  >
+    <ExternalLink size={16} />
+  </a>
+</h3>  <p className="text-gray-400">Scans wallets for unclaimed airdrops/NFTs</p>
             </div>
+
             <div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
-              <h3 className="text-xl font-semibold mb-2 flex items-center">
-                MyFinance Tracker
-                <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
-              <p className="text-gray-400">Financial management web app for tracking personal and family expenses</p>
-            </div>
+  <a href="https://github.com/Nikhil-Parajuli/Web3-Alert-Hub" target="_blank" rel="noopener noreferrer">
+    <h3 className="text-xl font-semibold mb-2 flex items-center">
+      Web3 Alert Hub
+      <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+    </h3>
+  </a>
+  <p className="text-gray-400">Real-time notification system for Web3 activities</p>
+</div>
+
+
+
+<div className="group p-6 border border-gray-800 rounded-lg hover:border-gray-700 transition-colors">
+  <a href="https://github.com/Nikhil-Parajuli/Web3-Alert-Hub" target="_blank" rel="noopener noreferrer">
+    <h3 className="text-xl font-semibold mb-2 flex items-center">
+      MyFinance Tracker
+      <ExternalLink size={16} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+    </h3>
+  </a>
+  <p className="text-gray-400">Financial management web app for tracking personal and family expenses</p>
+</div>
           </div>
+
+
+
         </section>
 
         {/* Next Project Section */}
